@@ -45,7 +45,7 @@
         "header": [],
         "body": {
           "mode": "raw",
-          "raw": "{\r\n    \"name\" : \"Ana\",\r\n    \"email\" : \"ana@puce.com\"\r\n}",
+          "raw": "{\r\n    \"name\" : \"Juan\",\r\n    \"email\" : \"juan@puce.com\"\r\n}",
           "options": {
             "raw": {
               "language": "json"

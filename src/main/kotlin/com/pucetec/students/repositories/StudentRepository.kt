@@ -6,4 +6,6 @@ import org.springframework.stereotype.Repository
 
 //Es el q interactua con la base de datos
 @Repository
-interface StudentRepository: JpaRepository<Student, Long>
+interface StudentRepository: JpaRepository<Student, Long>{
+    fun existsByEmail(email: String): Boolean
+}
