@@ -1,4 +1,13 @@
 package com.pucetec.students.dto
 
-class ProfessorDto {
-}
+data class ProfessorRequest(
+    val id: Long,
+    val name: String,
+    val email: String,
+)
+
+data class ProfessorResponse(
+    val id: Long,
+    val name: String,
+    val email: String,
+)

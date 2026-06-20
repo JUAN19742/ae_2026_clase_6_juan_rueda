@@ -1,4 +1,5 @@
 package com.pucetec.students.exceptions
 
-class ProfessorNotFoundException {
-}
+class ProfessorNotFoundException (
+    message: String? = null
+): Exception(message)

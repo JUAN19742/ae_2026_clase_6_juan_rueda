@@ -1,4 +1,5 @@
 package com.pucetec.students.exceptions
 
-class BlankNameException {
-}
+class BlankNameException(
+    message: String? = null
+) : Exception(message)

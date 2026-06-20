@@ -1,4 +1,5 @@
 package com.pucetec.students.exceptions
 
-class StudentNotFoundException {
-}
+class StudentNotFoundException (
+    message: String? = null
+): Exception(message)

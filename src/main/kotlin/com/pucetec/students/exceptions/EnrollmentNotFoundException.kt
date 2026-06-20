@@ -1,4 +1,5 @@
 package com.pucetec.students.exceptions
 
-class EnrollmentNotFoundException {
-}
+class EnrollmentNotFoundException (
+    message: String? = null
+): Exception(message)

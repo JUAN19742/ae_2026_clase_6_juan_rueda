@@ -1,4 +1,18 @@
 package com.pucetec.students.dto
 
-class EnrollmentDto {
-}
+data class EnrollmentRequest(
+    val studentId: Long,
+    val subjectId: Long
+)
+
+data class EnrollmentStatusRequest(
+    val status: String
+)
+
+data class EnrollmentResponse(
+    val id: Long,
+    val createdAt: String,
+    val status: String,
+    val subject: SubjectResponse,
+    val student: StudentResponse,
+)

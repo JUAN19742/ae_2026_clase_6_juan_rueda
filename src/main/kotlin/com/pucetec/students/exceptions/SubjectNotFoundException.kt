@@ -1,5 +1,5 @@
 package com.pucetec.students.exceptions
 
-class SubjectNotFound (
+class SubjectNotFoundException (
     message: String? = null
 ): Exception(message)
